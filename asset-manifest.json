@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pigeon_admin/static/css/main.d5488e38.css",
+    "main.js": "/pigeon_admin/static/js/main.50489b99.js",
+    "index.html": "/pigeon_admin/index.html",
+    "main.d5488e38.css.map": "/pigeon_admin/static/css/main.d5488e38.css.map",
+    "main.50489b99.js.map": "/pigeon_admin/static/js/main.50489b99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5488e38.css",
+    "static/js/main.50489b99.js"
+  ]
+}
