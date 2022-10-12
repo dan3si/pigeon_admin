@@ -103,7 +103,7 @@ const Routes = () => {
             </div>
 
             <div className={styles.routesWrapper}>
-                {routes.map(({ id, from, to, date, name, phone, note }) => (
+                {routes.map(({ id, from, to, date, name, telegram, phone, note }) => (
                     <div key={id} className={styles.route}>
                         <div className={styles.row}>
                             <div className={styles.field}>ID: {id}</div>
@@ -130,15 +130,21 @@ const Routes = () => {
                         
                         <div className={styles.row}>
                             <div className={styles.field}>Имя: {name}</div>
-                            <div className={styles.field}>
-                                <a
-                                    href={'tel: ' + phone}
-                                    className={styles.phoneLink}
-                                >
-                                    Телефон: {phone}
-                                </a>
-                            </div>
+                            <div className={styles.field}>Telegram: {telegram}</div>
                         </div>
+
+                        {phone !== '' && (
+                            <div className={styles.row}>
+                                <div className={styles.field}>
+                                    <a
+                                        href={'tel: ' + phone}
+                                        className={styles.phoneLink}
+                                    >
+                                        Телефон: {phone}
+                                    </a>
+                                </div>
+                            </div>
+                        )}
 
                         {note !== '' && (
                             <div className={styles.row}>
