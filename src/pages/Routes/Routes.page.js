@@ -25,7 +25,7 @@ const Routes = () => {
         setRoutesAreLoading(true)
 
         try {
-            const res = await fetch(`${API_URL}/routes?from=${from.value}&to=${to.value}`)
+            const res = await fetch(`${API_URL}/routes?outdated=true&from=${from.value}&to=${to.value}`)
             const data = await res.json()
             setRoutes(data)
         } catch {
