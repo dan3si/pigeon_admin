@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pigeon_admin/static/css/main.d5488e38.css",
-    "main.js": "/pigeon_admin/static/js/main.951c6ed6.js",
+    "main.css": "/pigeon_admin/static/css/main.fc10bc25.css",
+    "main.js": "/pigeon_admin/static/js/main.67657a1f.js",
     "index.html": "/pigeon_admin/index.html",
-    "main.d5488e38.css.map": "/pigeon_admin/static/css/main.d5488e38.css.map",
-    "main.951c6ed6.js.map": "/pigeon_admin/static/js/main.951c6ed6.js.map"
+    "main.fc10bc25.css.map": "/pigeon_admin/static/css/main.fc10bc25.css.map",
+    "main.67657a1f.js.map": "/pigeon_admin/static/js/main.67657a1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5488e38.css",
-    "static/js/main.951c6ed6.js"
+    "static/css/main.fc10bc25.css",
+    "static/js/main.67657a1f.js"
   ]
 }
